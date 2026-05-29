@@ -1,0 +1,14 @@
+name: pull request workflow
+
+on:
+  pull_request:
+
+jobs:
+  pull_demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: print message
+        run: echo "printed successfully"
+
+      
